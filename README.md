@@ -107,7 +107,7 @@ current = {
   <img src="https://streak-stats.demolab.com/?user=exoxeph&theme=nightowl&hide_border=true&cache_seconds=86400" alt="exoxeph's GitHub Streak" width="49%" />
 </p>
 <p align="center">
-  <img src="https://trophy.ryglcloud.net/?username=exoxeph&theme=nightowl&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="Imtiaz Mashrafee's GitHub Trophies" />
+  <img src="https://trophy.ryglcloud.net/?username=exoxeph&theme=nightowl&no-frame=true&margin-w=4&cache_seconds=86400" alt="Imtiaz Mashrafee's GitHub Trophies" />
 </p>
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=exoxeph&theme=react-dark&hide_border=true&bg_color=1a1b26&color=32CD32&line=32CD32&point=ffffff" alt="exoxeph's Contribution Activity Graph" width="100%" />
