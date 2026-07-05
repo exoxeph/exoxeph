@@ -23,7 +23,7 @@ visitor@github:~$ cat ./about_me.txt
 ```
 
 <p align="left">
-  <img src="https://img.shields.io/badge/%3E_about.me-1a1b26?style=flat-square" alt="About Me" />
+  <img src="https://img.shields.io/badge/%3E_about.me-1a1b26?style=flat-square" alt="About Me" height="32" />
 </p>
 
 ---
@@ -42,7 +42,7 @@ visitor@github:~$ cat ./about_me.txt
 
 
 <p align="left">
-  <img src="https://img.shields.io/badge/%3E_focus.areas-1a1b26?style=flat-square" alt="Focus Areas" />
+  <img src="https://img.shields.io/badge/%3E_focus.areas-1a1b26?style=flat-square" alt="Focus Areas" height="32" />
 </p>
 
 ---
@@ -54,7 +54,7 @@ visitor@github:~$ cat ./about_me.txt
 
 
 <p align="left">
-  <img src="https://img.shields.io/badge/%3E_current.focus-1a1b26?style=flat-square" alt="Current Focus" />
+  <img src="https://img.shields.io/badge/%3E_current.focus-1a1b26?style=flat-square" alt="Current Focus" height="32" />
 </p>
 
 ---
@@ -69,7 +69,7 @@ visitor@github:~$ cat ./about_me.txt
 | 🧩 Full-stack shipping with MERN & Next.js | 📘 Learning |
 
 <p align="left">
-  <img src="https://img.shields.io/badge/%3E_currently.working__on-1a1b26?style=flat-square" alt="Currently Working On" />
+  <img src="https://img.shields.io/badge/%3E_currently.working__on-1a1b26?style=flat-square" alt="Currently Working On" height="32" />
 </p>
 
 ---
@@ -87,7 +87,7 @@ current = {
 
 
 <p align="left">
-  <img src="https://img.shields.io/badge/%3E_github.stats-1a1b26?style=flat-square" alt="GitHub Stats" />
+  <img src="https://img.shields.io/badge/%3E_github.stats-1a1b26?style=flat-square" alt="GitHub Stats" height="32" />
 </p>
 
 ---
@@ -107,7 +107,7 @@ current = {
 
 
 <p align="left">
-  <img src="https://img.shields.io/badge/%3E_tech.stack-1a1b26?style=flat-square" alt="Tech Stack" />
+  <img src="https://img.shields.io/badge/%3E_tech.stack-1a1b26?style=flat-square" alt="Tech Stack" height="32" />
 </p>
 
 ---
@@ -173,7 +173,7 @@ current = {
 </p>
 
 <p align="left">
-  <img src="https://img.shields.io/badge/%3E_pinned.projects-1a1b26?style=flat-square" alt="Pinned Projects" />
+  <img src="https://img.shields.io/badge/%3E_pinned.projects-1a1b26?style=flat-square" alt="Pinned Projects" height="32" />
 </p>
 
 ---
@@ -187,7 +187,7 @@ current = {
 | [client-management](https://github.com/exoxeph/client-management) | MERN client-management platform for dev firms — onboarding, proposals, and negotiation, plus an AI RAG layer for codebase analysis | ![React](https://img.shields.io/badge/React-2d2d3a?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-2d2d3a?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-2d2d3a?style=flat-square) |
 
 <p align="left">
-  <img src="https://img.shields.io/badge/%3E_connect.with__me-1a1b26?style=flat-square" alt="Connect With Me" />
+  <img src="https://img.shields.io/badge/%3E_connect.with__me-1a1b26?style=flat-square" alt="Connect With Me" height="32" />
 </p>
 
 ---
@@ -199,7 +199,7 @@ current = {
 </p>
 
 <p align="left">
-  <img src="https://img.shields.io/badge/%3E_quote-1a1b26?style=flat-square" alt="Quote" />
+  <img src="https://img.shields.io/badge/%3E_quote-1a1b26?style=flat-square" alt="Quote" height="32" />
 </p>
 
 ---
