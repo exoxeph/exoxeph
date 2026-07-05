@@ -40,7 +40,7 @@ I'm currently a Backend AI Engineering Intern @ FlyRank AI, and previously worke
 
 I've got a few pinned projects, but my favorite is [Data-Aware RAG](https://github.com/exoxeph/Data-Aware-RAG), a production-grade retrieval-augmented generation system for querying research papers.
 
-I'm finishing my CS degree at BRAC University, with a thesis on backdoor attacks and model robustness in neural networks, and I'm AWS AI & ML Scholars certified.
+I'm finishing my CS degree at BRAC University, with a thesis on backdoor attacks and model robustness in neural networks, and I completed the AWS AI & ML Scholars AI Practitioner Challenge with Udacity and AWS.
 
 **Fun Facts:**
 - Barça til I die, Visca Barça ⚽
