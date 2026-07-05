@@ -18,8 +18,8 @@ visitor@github:~$ cat ./about_me.txt
   Handle  : exoxeph
   Uni     : BRAC University
   Focus   : AI · LLMs · RAG · Backend Systems
-  Status  : ██████████--  Learning every day
-  Collab  : OPEN — reach out anytime ✅
+  Status  : [██████████  ]  Learning every day
+  Collab  : OPEN, reach out anytime ✅
 ```
 
 <br>
@@ -32,18 +32,18 @@ visitor@github:~$ cat ./about_me.txt
 
 I'm Imtiaz, an AI engineer based in Dhaka, Bangladesh.
 
-I build backend systems and LLM-powered tools — RAG pipelines, vector search, and the infrastructure that keeps them running.
+I build backend systems and LLM-powered tools: RAG pipelines, vector search, and the infrastructure that keeps them running.
 
 If a paper or idea catches my eye, there's a good chance I'll have a working prototype by the weekend.
 
 I'm currently a Backend AI Engineering Intern @ FlyRank AI, and previously worked as an AI & DevOps Engineering Intern @ Data Solution-360, where I helped ship LinkX360's deployment pipeline on DigitalOcean and built Redis-backed async systems.
 
-I've got a few pinned projects, but my favorite is [Data-Aware RAG](https://github.com/exoxeph/Data-Aware-RAG) — a production-grade retrieval-augmented generation system for querying research papers.
+I've got a few pinned projects, but my favorite is [Data-Aware RAG](https://github.com/exoxeph/Data-Aware-RAG), a production-grade retrieval-augmented generation system for querying research papers.
 
-I'm finishing my CS degree at BRAC University, with a thesis on backdoor attacks and model robustness in neural networks — and I'm AWS AI & ML Scholars certified.
+I'm finishing my CS degree at BRAC University, with a thesis on backdoor attacks and model robustness in neural networks, and I'm AWS AI & ML Scholars certified.
 
 **Fun Facts:**
-- Barça til I die — Visca Barça ⚽
+- Barça til I die, Visca Barça ⚽
 - Currently open to Software Engineering & AI roles
 - Hobbies: LLMs, football, and building things that ship
 
@@ -55,10 +55,10 @@ I'm finishing my CS degree at BRAC University, with a thesis on backdoor attacks
 
 ---
 
-- **LLM Systems & RAG** — retrieval pipelines, vector search, embeddings
-- **Backend & Infra** — Docker, CI/CD, Redis, DigitalOcean deployments
-- **ML Security & Robustness** — adversarial/backdoor attacks (thesis focus)
-- **Full-Stack when needed** — MERN/Next.js for shipping end-to-end products
+- **LLM Systems & RAG**: retrieval pipelines, vector search, embeddings
+- **Backend & Infra**: Docker, CI/CD, Redis, DigitalOcean deployments
+- **ML Security & Robustness**: adversarial/backdoor attacks (thesis focus)
+- **Full-Stack when needed**: MERN/Next.js for shipping end-to-end products
 
 <br>
 
@@ -68,14 +68,12 @@ I'm finishing my CS degree at BRAC University, with a thesis on backdoor attacks
 
 ---
 
-| Objective | Status |
+| Skill | Status |
 |---|---|
-| 🚀 Building production-grade RAG & LLM systems | ⚡ Active |
-| 🖥️ Backend AI engineering @ FlyRank AI | ⚡ Active |
-| 🔐 Researching backdoor attacks & model robustness (thesis) | ⚡ Active |
-| ⚙️ Scalable backend architecture with Docker & Redis | 📘 Learning |
-| ☁️ Cloud deployment patterns on DigitalOcean & AWS | 📘 Learning |
-| 🧩 Full-stack shipping with MERN & Next.js | 📘 Learning |
+| 🚀 RAG & LLM Systems | ⚡ Active |
+| ⚙️ Backend Architecture (Docker, Redis) | ⚡ Active |
+| ☁️ Cloud Deployment (DigitalOcean, AWS) | 📘 Learning |
+| 🧩 Full-Stack (MERN & Next.js) | ⚡ Active |
 
 <br>
 
@@ -91,8 +89,6 @@ current = {
   "maintaining" : "Backend AI systems @ FlyRank AI",
   "infra"       : "Redis-backed async systems & Docker deployment pipelines",
   "research"    : "Backdoor attacks & model robustness in neural networks (thesis)",
-  "sideProject" : "Full-stack MERN apps like ClientManager Pro",
-  "coursework"  : "AWS AI & ML Scholars",
 }
 ```
 
@@ -141,14 +137,14 @@ current = {
     <td align="center"><b>Frontend</b></td>
     <td>
       <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
       <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
     </td>
   </tr>
   <tr>
     <td align="center"><b>Backend</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
       <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
       <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
     </td>
@@ -193,13 +189,62 @@ current = {
 
 ---
 
-| Project | Description | Stack |
-|---|---|---|
-| [mnist-digit-recognition-workbench](https://github.com/exoxeph/mnist-digit-recognition-workbench) | Four progressive digit-recognition models — from a logistic regression baseline to a 98.45%-accurate PyTorch CNN with robustness testing and a live drawing demo | ![Python](https://img.shields.io/badge/Python-2d2d3a?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-2d2d3a?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-2d2d3a?style=flat-square) |
-| [email-spam-classification](https://github.com/exoxeph/email-spam-classification) | Progressive spam classifier suite — from TF-IDF/Naive Bayes to a production-style risk-triage UI, reaching a 98.9% F1 score | ![Python](https://img.shields.io/badge/Python-2d2d3a?style=flat-square) ![scikit--learn](https://img.shields.io/badge/scikit--learn-2d2d3a?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-2d2d3a?style=flat-square) |
-| [email-assistant](https://github.com/exoxeph/email-assistant) | Compares two LLM strategies for drafting professional emails from intent/tone inputs, with a two-stage pipeline for improved reliability | ![Python](https://img.shields.io/badge/Python-2d2d3a?style=flat-square) ![Streamlit](https://img.shields.io/badge/Streamlit-2d2d3a?style=flat-square) ![LLMs](https://img.shields.io/badge/LLMs-2d2d3a?style=flat-square) |
-| [Data-Aware-RAG](https://github.com/exoxeph/Data-Aware-RAG) | Production-grade RAG system for querying PDF research papers, combining vector + keyword hybrid search behind a FastAPI service | ![Python](https://img.shields.io/badge/Python-2d2d3a?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-2d2d3a?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-2d2d3a?style=flat-square) |
-| [client-management](https://github.com/exoxeph/client-management) | MERN client-management platform for dev firms — onboarding, proposals, and negotiation, plus an AI RAG layer for codebase analysis | ![React](https://img.shields.io/badge/React-2d2d3a?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-2d2d3a?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-2d2d3a?style=flat-square) |
+<table>
+  <thead>
+    <tr>
+      <th align="left">Project</th>
+      <th align="left">Description</th>
+      <th align="left">Stack</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">○ <a href="https://github.com/exoxeph/mnist-digit-recognition-workbench"><b>mnist-digit-recognition-workbench</b></a></td>
+      <td valign="top">Four progressive digit-recognition models, from a logistic regression baseline to a 98.45%-accurate PyTorch CNN with robustness testing and a live drawing demo</td>
+      <td valign="top">
+        <img src="https://img.shields.io/badge/Python-2d2d3a?style=flat-square" alt="Python" /><br/>
+        <img src="https://img.shields.io/badge/PyTorch-2d2d3a?style=flat-square" alt="PyTorch" /><br/>
+        <img src="https://img.shields.io/badge/Streamlit-2d2d3a?style=flat-square" alt="Streamlit" />
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">○ <a href="https://github.com/exoxeph/email-spam-classification"><b>email-spam-classification</b></a></td>
+      <td valign="top">Progressive spam classifier suite, from TF-IDF/Naive Bayes to a production-style risk-triage UI, reaching a 98.9% F1 score</td>
+      <td valign="top">
+        <img src="https://img.shields.io/badge/Python-2d2d3a?style=flat-square" alt="Python" /><br/>
+        <img src="https://img.shields.io/badge/scikit--learn-2d2d3a?style=flat-square" alt="scikit-learn" /><br/>
+        <img src="https://img.shields.io/badge/Streamlit-2d2d3a?style=flat-square" alt="Streamlit" />
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">○ <a href="https://github.com/exoxeph/email-assistant"><b>email-assistant</b></a></td>
+      <td valign="top">Compares two LLM strategies for drafting professional emails from intent/tone inputs, with a two-stage pipeline for improved reliability</td>
+      <td valign="top">
+        <img src="https://img.shields.io/badge/Python-2d2d3a?style=flat-square" alt="Python" /><br/>
+        <img src="https://img.shields.io/badge/Streamlit-2d2d3a?style=flat-square" alt="Streamlit" /><br/>
+        <img src="https://img.shields.io/badge/LLMs-2d2d3a?style=flat-square&logo=openai&logoColor=white" alt="LLMs" />
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">○ <a href="https://github.com/exoxeph/Data-Aware-RAG"><b>Data-Aware-RAG</b></a></td>
+      <td valign="top">Production-grade RAG system for querying PDF research papers, combining vector and keyword hybrid search behind a FastAPI service</td>
+      <td valign="top">
+        <img src="https://img.shields.io/badge/Python-2d2d3a?style=flat-square" alt="Python" /><br/>
+        <img src="https://img.shields.io/badge/FastAPI-2d2d3a?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" /><br/>
+        <img src="https://img.shields.io/badge/ChromaDB-2d2d3a?style=flat-square" alt="ChromaDB" />
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">○ <a href="https://github.com/exoxeph/client-management"><b>client-management</b></a></td>
+      <td valign="top">MERN client-management platform for dev firms: onboarding, proposals, and negotiation, plus an AI RAG layer for codebase analysis</td>
+      <td valign="top">
+        <img src="https://img.shields.io/badge/React-2d2d3a?style=flat-square&logo=react&logoColor=61DAFB" alt="React" /><br/>
+        <img src="https://img.shields.io/badge/Node.js-2d2d3a?style=flat-square&logo=nodedotjs&logoColor=339933" alt="Node.js" /><br/>
+        <img src="https://img.shields.io/badge/Pinecone-2d2d3a?style=flat-square" alt="Pinecone" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 
@@ -210,8 +255,8 @@ current = {
 ---
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/imtiazmashrafee/"><img align="center" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&color=00FFFF" alt="Imtiaz Mashrafee's LinkedIn"/></a>&nbsp;&nbsp;
-  <a href="mailto:imtiazmashrafee@gmail.com"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=00FFFF" alt="Imtiaz Mashrafee's Email"/></a>&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/imtiazmashrafee/"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Imtiaz Mashrafee's LinkedIn"/></a>&nbsp;&nbsp;
+  <a href="mailto:imtiazmashrafee@gmail.com"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Imtiaz Mashrafee's Email"/></a>&nbsp;&nbsp;
   <a href="https://wa.me/3871726493223"><img align="center" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
 </p>
 
