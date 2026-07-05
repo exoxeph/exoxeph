@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="207" height="52" viewBox="0 0 207 52">
+  <rect x="0" y="0" width="207" height="52" rx="10" ry="10" fill="#1a1b26"/>
+  <text x="22" y="33.7" font-family="Consolas, 'Courier New', monospace" font-size="22" font-weight="bold" fill="#ffffff">
+    <tspan fill="#7aa2f7">&gt; </tspan><tspan fill="#ffffff">tech.stack</tspan>
+  </text>
+</svg>
