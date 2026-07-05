@@ -28,12 +28,17 @@ visitor@github:~$ cat ./about_me.txt
 
 ---
 
-- **Who I am** — AI engineer based in Dhaka, Bangladesh.
-- **What I build** — Backend systems and LLM-powered tools: RAG pipelines, vector search, and the infrastructure that keeps them running. If a paper or idea catches my eye, there's a good chance I'll have a working prototype by the weekend.
-- **Currently** — Backend AI Engineering Intern @ FlyRank AI. Previously AI & DevOps Engineering Intern @ Data Solution-360, shipping LinkX360's deployment pipeline on DigitalOcean and Redis-backed async systems.
-- **Stack** — Python, LLMs, RAG, Docker, MongoDB, React/Next.js. Go-to tools: VS Code, Docker Desktop, Postman, Notion.
-- **Favorite project** — [Data-Aware RAG](https://github.com/exoxeph/Data-Aware-RAG), a production-grade retrieval-augmented generation system for querying research papers.
-- **Education** — Finishing my CS degree at BRAC University, thesis on backdoor attacks and model robustness in neural networks. AWS AI & ML Scholars certified.
+I'm Imtiaz, an AI engineer based in Dhaka, Bangladesh.
+
+I build backend systems and LLM-powered tools — RAG pipelines, vector search, and the infrastructure that keeps them running.
+
+If a paper or idea catches my eye, there's a good chance I'll have a working prototype by the weekend.
+
+I'm currently a Backend AI Engineering Intern @ FlyRank AI, and previously worked as an AI & DevOps Engineering Intern @ Data Solution-360, where I helped ship LinkX360's deployment pipeline on DigitalOcean and built Redis-backed async systems.
+
+I've got a few pinned projects, but my favorite is [Data-Aware RAG](https://github.com/exoxeph/Data-Aware-RAG) — a production-grade retrieval-augmented generation system for querying research papers.
+
+I'm finishing my CS degree at BRAC University, with a thesis on backdoor attacks and model robustness in neural networks — and I'm AWS AI & ML Scholars certified.
 
 **Fun Facts:**
 - Barça til I die — Visca Barça ⚽
