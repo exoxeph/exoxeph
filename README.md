@@ -22,9 +22,12 @@ visitor@github:~$ cat ./about_me.txt
   Collab  : OPEN — reach out anytime ✅
 ```
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/%3E_about.me-1a1b26?style=flat-square" alt="About Me" />
 </p>
+
+---
+
 - **Who I am** — AI engineer based in Dhaka, Bangladesh.
 - **What I build** — Backend systems and LLM-powered tools: RAG pipelines, vector search, and the infrastructure that keeps them running. If a paper or idea catches my eye, there's a good chance I'll have a working prototype by the weekend.
 - **Currently** — Backend AI Engineering Intern @ FlyRank AI. Previously AI & DevOps Engineering Intern @ Data Solution-360, shipping LinkX360's deployment pipeline on DigitalOcean and Redis-backed async systems.
@@ -38,18 +41,23 @@ visitor@github:~$ cat ./about_me.txt
 - Hobbies: LLMs, football, and building things that ship
 
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/%3E_focus.areas-1a1b26?style=flat-square" alt="Focus Areas" />
 </p>
+
+---
+
 - **LLM Systems & RAG** — retrieval pipelines, vector search, embeddings
 - **Backend & Infra** — Docker, CI/CD, Redis, DigitalOcean deployments
 - **ML Security & Robustness** — adversarial/backdoor attacks (thesis focus)
 - **Full-Stack when needed** — MERN/Next.js for shipping end-to-end products
 
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/%3E_current.focus-1a1b26?style=flat-square" alt="Current Focus" />
 </p>
+
+---
 
 | Objective | Status |
 |---|---|
@@ -60,20 +68,30 @@ visitor@github:~$ cat ./about_me.txt
 | ☁️ Cloud deployment patterns on DigitalOcean & AWS | 📘 Learning |
 | 🧩 Full-stack shipping with MERN & Next.js | 📘 Learning |
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/%3E_currently.working__on-1a1b26?style=flat-square" alt="Currently Working On" />
 </p>
-- ✅ Production RAG pipelines for research paper retrieval
-- ✅ Backend AI systems @ FlyRank AI
-- ✅ Redis-backed async systems & Docker deployment pipelines
-- ✅ Thesis research on backdoor attacks & model robustness in neural networks
-- ✅ Full-stack MERN apps like ClientManager Pro
-- ✅ AWS AI & ML Scholars coursework
+
+---
+
+```js
+current = {
+  "shipping"    : "Production RAG pipelines for research paper retrieval",
+  "maintaining" : "Backend AI systems @ FlyRank AI",
+  "infra"       : "Redis-backed async systems & Docker deployment pipelines",
+  "research"    : "Backdoor attacks & model robustness in neural networks (thesis)",
+  "sideProject" : "Full-stack MERN apps like ClientManager Pro",
+  "coursework"  : "AWS AI & ML Scholars",
+}
+```
 
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/%3E_github.stats-1a1b26?style=flat-square" alt="GitHub Stats" />
 </p>
+
+---
+
 <p align="center">
   <a href="https://github.com/exoxeph">
     <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=exoxeph&cache_seconds=7200&layout=compact&theme=nightowl&border_radius=10&hide_border=true" alt="exoxeph's GitHub Stats" width="49%" />
@@ -88,18 +106,13 @@ visitor@github:~$ cat ./about_me.txt
 </p>
 
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/%3E_tech.stack-1a1b26?style=flat-square" alt="Tech Stack" />
 </p>
 
+---
+
 <table align="center">
-  <tr>
-    <td align="center"><b>Languages</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-    </td>
-  </tr>
   <tr>
     <td align="center"><b>AI / ML</b></td>
     <td>
@@ -159,9 +172,11 @@ visitor@github:~$ cat ./about_me.txt
   </a>
 </p>
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/%3E_pinned.projects-1a1b26?style=flat-square" alt="Pinned Projects" />
 </p>
+
+---
 
 | Project | Description | Stack |
 |---|---|---|
@@ -171,18 +186,24 @@ visitor@github:~$ cat ./about_me.txt
 | [Data-Aware-RAG](https://github.com/exoxeph/Data-Aware-RAG) | Production-grade RAG system for querying PDF research papers, combining vector + keyword hybrid search behind a FastAPI service | ![Python](https://img.shields.io/badge/Python-2d2d3a?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-2d2d3a?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-2d2d3a?style=flat-square) |
 | [client-management](https://github.com/exoxeph/client-management) | MERN client-management platform for dev firms — onboarding, proposals, and negotiation, plus an AI RAG layer for codebase analysis | ![React](https://img.shields.io/badge/React-2d2d3a?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-2d2d3a?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-2d2d3a?style=flat-square) |
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/%3E_connect.with__me-1a1b26?style=flat-square" alt="Connect With Me" />
 </p>
+
+---
+
 <p align="center">
   <a href="https://www.linkedin.com/in/imtiazmashrafee/"><img align="center" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&color=00FFFF" alt="Imtiaz Mashrafee's LinkedIn"/></a>&nbsp;&nbsp;
   <a href="mailto:imtiazmashrafee@gmail.com"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=00FFFF" alt="Imtiaz Mashrafee's Email"/></a>&nbsp;&nbsp;
   <a href="https://wa.me/3871726493223"><img align="center" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
 </p>
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/%3E_quote-1a1b26?style=flat-square" alt="Quote" />
 </p>
+
+---
+
 > 99 little bugs in the code, 99 little bugs... take one down, patch it around, 127 little bugs in the code
 
 <p align="center">
