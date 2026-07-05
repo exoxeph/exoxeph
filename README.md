@@ -22,6 +22,8 @@ visitor@github:~$ cat ./about_me.txt
   Collab  : OPEN — reach out anytime ✅
 ```
 
+<br>
+
 <p align="left">
   <img src="assets/headers/about-me.svg" alt="About Me" />
 </p>
@@ -45,6 +47,7 @@ I'm finishing my CS degree at BRAC University, with a thesis on backdoor attacks
 - Currently open to Software Engineering & AI roles
 - Hobbies: LLMs, football, and building things that ship
 
+<br>
 
 <p align="left">
   <img src="assets/headers/focus-areas.svg" alt="Focus Areas" />
@@ -57,6 +60,7 @@ I'm finishing my CS degree at BRAC University, with a thesis on backdoor attacks
 - **ML Security & Robustness** — adversarial/backdoor attacks (thesis focus)
 - **Full-Stack when needed** — MERN/Next.js for shipping end-to-end products
 
+<br>
 
 <p align="left">
   <img src="assets/headers/current-focus.svg" alt="Current Focus" />
@@ -72,6 +76,8 @@ I'm finishing my CS degree at BRAC University, with a thesis on backdoor attacks
 | ⚙️ Scalable backend architecture with Docker & Redis | 📘 Learning |
 | ☁️ Cloud deployment patterns on DigitalOcean & AWS | 📘 Learning |
 | 🧩 Full-stack shipping with MERN & Next.js | 📘 Learning |
+
+<br>
 
 <p align="left">
   <img src="assets/headers/currently-working-on.svg" alt="Currently Working On" />
@@ -90,6 +96,7 @@ current = {
 }
 ```
 
+<br>
 
 <p align="left">
   <img src="assets/headers/github-stats.svg" alt="GitHub Stats" />
@@ -110,6 +117,7 @@ current = {
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=exoxeph&theme=react-dark&hide_border=true&bg_color=1a1b26&color=32CD32&line=32CD32&point=ffffff" alt="exoxeph's Contribution Activity Graph" width="100%" />
 </p>
 
+<br>
 
 <p align="left">
   <img src="assets/headers/tech-stack.svg" alt="Tech Stack" />
@@ -177,6 +185,8 @@ current = {
   </a>
 </p>
 
+<br>
+
 <p align="left">
   <img src="assets/headers/pinned-projects.svg" alt="Pinned Projects" />
 </p>
@@ -191,6 +201,8 @@ current = {
 | [Data-Aware-RAG](https://github.com/exoxeph/Data-Aware-RAG) | Production-grade RAG system for querying PDF research papers, combining vector + keyword hybrid search behind a FastAPI service | ![Python](https://img.shields.io/badge/Python-2d2d3a?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-2d2d3a?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-2d2d3a?style=flat-square) |
 | [client-management](https://github.com/exoxeph/client-management) | MERN client-management platform for dev firms — onboarding, proposals, and negotiation, plus an AI RAG layer for codebase analysis | ![React](https://img.shields.io/badge/React-2d2d3a?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-2d2d3a?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-2d2d3a?style=flat-square) |
 
+<br>
+
 <p align="left">
   <img src="assets/headers/connect-with-me.svg" alt="Connect With Me" />
 </p>
@@ -202,6 +214,8 @@ current = {
   <a href="mailto:imtiazmashrafee@gmail.com"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=00FFFF" alt="Imtiaz Mashrafee's Email"/></a>&nbsp;&nbsp;
   <a href="https://wa.me/3871726493223"><img align="center" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
 </p>
+
+<br>
 
 <p align="left">
   <img src="assets/headers/quote.svg" alt="Quote" />
