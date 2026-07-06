@@ -227,7 +227,7 @@ current = {
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <h3>🏢 <a href="https://github.com/exoxeph/client-management">ClientManager Pro</a></h3>
       <p><b>AI-Powered MERN Client Platform</b></p>
       <p>MERN client-management platform for dev firms: onboarding, proposals, and negotiation, plus an AI RAG layer for codebase analysis using Gemini and Pinecone.</p>
@@ -235,7 +235,6 @@ current = {
       <img src="https://img.shields.io/badge/Node.js-2d2d3a?style=flat-square&logo=nodedotjs&logoColor=339933" alt="Node.js" />
       <img src="https://img.shields.io/badge/Pinecone-2d2d3a?style=flat-square" alt="Pinecone" />
     </td>
-    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
