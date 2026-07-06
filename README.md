@@ -189,61 +189,54 @@ current = {
 
 ---
 
-<table>
-  <thead>
-    <tr>
-      <th align="left">Project</th>
-      <th align="left">Description</th>
-      <th align="left">Stack</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td valign="top">○ <a href="https://github.com/exoxeph/mnist-digit-recognition-workbench"><b>mnist-digit-recognition-workbench</b></a></td>
-      <td valign="top">Four progressive digit-recognition models, from a logistic regression baseline to a 98.45%-accurate PyTorch CNN with robustness testing and a live drawing demo</td>
-      <td valign="top">
-        <img src="https://img.shields.io/badge/Python-2d2d3a?style=flat-square" alt="Python" /><br/>
-        <img src="https://img.shields.io/badge/PyTorch-2d2d3a?style=flat-square" alt="PyTorch" /><br/>
-        <img src="https://img.shields.io/badge/Streamlit-2d2d3a?style=flat-square" alt="Streamlit" />
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">○ <a href="https://github.com/exoxeph/email-spam-classification"><b>email-spam-classification</b></a></td>
-      <td valign="top">Progressive spam classifier suite, from TF-IDF/Naive Bayes to a production-style risk-triage UI, reaching a 98.9% F1 score</td>
-      <td valign="top">
-        <img src="https://img.shields.io/badge/Python-2d2d3a?style=flat-square" alt="Python" /><br/>
-        <img src="https://img.shields.io/badge/scikit--learn-2d2d3a?style=flat-square" alt="scikit-learn" /><br/>
-        <img src="https://img.shields.io/badge/Streamlit-2d2d3a?style=flat-square" alt="Streamlit" />
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">○ <a href="https://github.com/exoxeph/email-assistant"><b>email-assistant</b></a></td>
-      <td valign="top">Compares two LLM strategies for drafting professional emails from intent/tone inputs, with a two-stage pipeline for improved reliability</td>
-      <td valign="top">
-        <img src="https://img.shields.io/badge/Python-2d2d3a?style=flat-square" alt="Python" /><br/>
-        <img src="https://img.shields.io/badge/Streamlit-2d2d3a?style=flat-square" alt="Streamlit" /><br/>
-        <img src="https://img.shields.io/badge/LLMs-2d2d3a?style=flat-square&logo=openai&logoColor=white" alt="LLMs" />
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">○ <a href="https://github.com/exoxeph/Data-Aware-RAG"><b>Data-Aware-RAG</b></a></td>
-      <td valign="top">Production-grade RAG system for querying PDF research papers, combining vector and keyword hybrid search behind a FastAPI service</td>
-      <td valign="top">
-        <img src="https://img.shields.io/badge/Python-2d2d3a?style=flat-square" alt="Python" /><br/>
-        <img src="https://img.shields.io/badge/FastAPI-2d2d3a?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" /><br/>
-        <img src="https://img.shields.io/badge/ChromaDB-2d2d3a?style=flat-square" alt="ChromaDB" />
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">○ <a href="https://github.com/exoxeph/client-management"><b>client-management</b></a></td>
-      <td valign="top">MERN client-management platform for dev firms: onboarding, proposals, and negotiation, plus an AI RAG layer for codebase analysis</td>
-      <td valign="top">
-        <img src="https://img.shields.io/badge/React-2d2d3a?style=flat-square&logo=react&logoColor=61DAFB" alt="React" /><br/>
-        <img src="https://img.shields.io/badge/Node.js-2d2d3a?style=flat-square&logo=nodedotjs&logoColor=339933" alt="Node.js" /><br/>
-        <img src="https://img.shields.io/badge/Pinecone-2d2d3a?style=flat-square" alt="Pinecone" />
-      </td>
-    </tr>
-  </tbody>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔢 <a href="https://github.com/exoxeph/mnist-digit-recognition-workbench">MNIST Workbench</a></h3>
+      <p><b>Progressive Digit Recognition</b></p>
+      <p>Four models from a logistic regression baseline to a 98.45%-accurate PyTorch CNN, with a robustness suite testing rotation, blur, noise, and pixel-shift attacks, plus a live Streamlit drawing demo.</p>
+      <img src="https://img.shields.io/badge/Python-2d2d3a?style=flat-square" alt="Python" />
+      <img src="https://img.shields.io/badge/PyTorch-2d2d3a?style=flat-square" alt="PyTorch" />
+      <img src="https://img.shields.io/badge/Streamlit-2d2d3a?style=flat-square" alt="Streamlit" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>📧 <a href="https://github.com/exoxeph/email-spam-classification">Spam Classifier</a></h3>
+      <p><b>Progressive Email Spam Detection</b></p>
+      <p>A four-version classifier built on the Enron dataset (28k emails): TF-IDF/Naive Bayes baseline, engineered features, tuned model comparison, and a production-style Streamlit risk-triage UI reaching 98.9% F1.</p>
+      <img src="https://img.shields.io/badge/Python-2d2d3a?style=flat-square" alt="Python" />
+      <img src="https://img.shields.io/badge/scikit--learn-2d2d3a?style=flat-square" alt="scikit-learn" />
+      <img src="https://img.shields.io/badge/Streamlit-2d2d3a?style=flat-square" alt="Streamlit" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>✉️ <a href="https://github.com/exoxeph/email-assistant">Email Assistant</a></h3>
+      <p><b>LLM Email Drafting Pipeline</b></p>
+      <p>Compares a single-prompt LLM baseline against a two-stage pipeline (intent normalization, contradiction detection, clarification routing, fact filtering) for drafting professional emails from intent/tone inputs.</p>
+      <img src="https://img.shields.io/badge/Python-2d2d3a?style=flat-square" alt="Python" />
+      <img src="https://img.shields.io/badge/Streamlit-2d2d3a?style=flat-square" alt="Streamlit" />
+      <img src="https://img.shields.io/badge/LLMs-2d2d3a?style=flat-square&logo=openai&logoColor=white" alt="LLMs" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>📚 <a href="https://github.com/exoxeph/Data-Aware-RAG">Data-Aware RAG</a></h3>
+      <p><b>Research Paper RAG System</b></p>
+      <p>Production-grade RAG pipeline: marker-pdf ingestion into DuckDB, hybrid vector and BM25 retrieval, a FastAPI service with CLI tools, and a 3-tier caching layer for fast repeat queries.</p>
+      <img src="https://img.shields.io/badge/Python-2d2d3a?style=flat-square" alt="Python" />
+      <img src="https://img.shields.io/badge/FastAPI-2d2d3a?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/ChromaDB-2d2d3a?style=flat-square" alt="ChromaDB" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏢 <a href="https://github.com/exoxeph/client-management">ClientManager Pro</a></h3>
+      <p><b>AI-Powered MERN Client Platform</b></p>
+      <p>MERN client-management platform for dev firms: onboarding, proposals, and negotiation, plus an AI RAG layer for codebase analysis using Gemini and Pinecone.</p>
+      <img src="https://img.shields.io/badge/React-2d2d3a?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+      <img src="https://img.shields.io/badge/Node.js-2d2d3a?style=flat-square&logo=nodedotjs&logoColor=339933" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Pinecone-2d2d3a?style=flat-square" alt="Pinecone" />
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
 </table>
 
 <br>
