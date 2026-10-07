@@ -40,7 +40,7 @@ I'm currently a Backend AI Engineering Intern @ FlyRank AI, and previously worke
 
 I've got a few pinned projects, but my favorite is [Data-Aware RAG](https://github.com/exoxeph/Data-Aware-RAG), a production-grade retrieval-augmented generation system for querying research papers.
 
-I'm finishing my CS degree at BRAC University, with a thesis on backdoor attacks and model robustness in neural networks, and I completed the AWS AI & ML Scholars AI Practitioner Challenge with Udacity and AWS.
+I'm finishing my CS degree at BRAC University, with a thesis on backdoor attacks and model robustness in neural networks, and I'm an AWS Certified AI Practitioner who completed Udacity's Future AWS Agent Engineer nanodegree.
 
 **Fun Facts:**
 - Barça til I die, Visca Barça ⚽
@@ -234,6 +234,33 @@ current = {
       <img src="https://img.shields.io/badge/React-2d2d3a?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
       <img src="https://img.shields.io/badge/Node.js-2d2d3a?style=flat-square&logo=nodedotjs&logoColor=339933" alt="Node.js" />
       <img src="https://img.shields.io/badge/Pinecone-2d2d3a?style=flat-square" alt="Pinecone" />
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<p align="left">
+  <img src="assets/headers/certifications.svg" alt="Certifications" />
+</p>
+
+---
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://www.credly.com/badges/f877a355-f105-4953-9784-0ebedbeda19e/linked_in_profile">
+        <img src="assets/certs/aws-ai-practitioner.png" height="130" alt="AWS Certified AI Practitioner badge" />
+      </a>
+      <h3><a href="https://www.credly.com/badges/f877a355-f105-4953-9784-0ebedbeda19e/linked_in_profile">AWS Certified AI Practitioner</a></h3>
+      <p>Amazon Web Services<br>Issued Sep 2026 · Expires Sep 2029</p>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://www.udacity.com/certificate/e/be79146e-900d-11f1-84b6-df558e132a0d">
+        <img src="assets/certs/udacity.png" height="130" alt="Udacity logo" />
+      </a>
+      <h3><a href="https://www.udacity.com/certificate/e/be79146e-900d-11f1-84b6-df558e132a0d">Future AWS Agent Engineer Nanodegree</a></h3>
+      <p>Udacity<br>Completed Oct 2026</p>
     </td>
   </tr>
 </table>
