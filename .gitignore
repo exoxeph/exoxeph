@@ -1,0 +1,8 @@
+# Local tool output and crash dumps
+*.stackdump
+.impeccable/
+# Never keep analysis clones or planning notes in this public profile repo
+repos/
+audit/
+strategy/
+design/
