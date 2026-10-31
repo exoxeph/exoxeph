@@ -256,11 +256,27 @@ current = {
       <p>Amazon Web Services<br>Issued Sep 2026 · Expires Sep 2029</p>
     </td>
     <td width="50%" align="center" valign="top">
+      <a href="https://www.credly.com/badges/1be73443-89e4-4657-96c6-d4fa99cf607b/">
+        <img src="assets/certs/aws-cloud-practitioner.png" height="130" alt="AWS Certified Cloud Practitioner badge" />
+      </a>
+      <h3><a href="https://www.credly.com/badges/1be73443-89e4-4657-96c6-d4fa99cf607b/">AWS Certified Cloud Practitioner</a></h3>
+      <p>Amazon Web Services<br>Issued Oct 2026 · Expires Oct 2029</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
       <a href="https://www.udacity.com/certificate/e/be79146e-900d-11f1-84b6-df558e132a0d">
         <img src="assets/certs/udacity.png" height="130" alt="Udacity logo" />
       </a>
       <h3><a href="https://www.udacity.com/certificate/e/be79146e-900d-11f1-84b6-df558e132a0d">Future AWS Agent Engineer Nanodegree</a></h3>
       <p>Udacity<br>Completed Oct 2026</p>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://credentials.redis.io/9db642ab-2b59-46db-8a85-e6ec3a36a18a">
+        <img src="assets/certs/redis.png" height="130" alt="Redis Certified Associate Developer badge" />
+      </a>
+      <h3><a href="https://credentials.redis.io/9db642ab-2b59-46db-8a85-e6ec3a36a18a">Redis Certified: Associate Developer</a></h3>
+      <p>Redis<br>Issued Oct 2026 · Expires Oct 2028</p>
     </td>
   </tr>
 </table>
