@@ -1,0 +1,182 @@
+{
+  "_about": "Hand-kept facts for the profile README. Project copy is taken from the case studies on exoxeph.github.io. This profile deliberately leaves out employment and work history. Numbers that change by themselves are fetched by scripts/fetch.py and never typed here.",
+  "user": "exoxeph",
+  "name": "Imtiaz Mashrafee",
+  "role": "AI Engineer",
+  "lede": "I build AI systems and test what they do when inputs go wrong.",
+  "meta": [
+    "Computer Science, BRAC University",
+    "LLM systems · RAG · ML robustness",
+    "Dhaka, Bangladesh"
+  ],
+  "links": {
+    "site": "https://exoxeph.github.io",
+    "mirror": "https://imtiazmashrafee.pages.dev",
+    "resume": "https://exoxeph.github.io/resume/",
+    "work": "https://exoxeph.github.io/work/",
+    "linkedin": "https://www.linkedin.com/in/imtiazmashrafee/",
+    "email": "mailto:imtiazmashrafee@gmail.com"
+  },
+  "projects": [
+    {
+      "id": "ride-pooling-lifecycle",
+      "icon": "car",
+      "domain": "Backend",
+      "question": "How do you stop a car being overbooked?",
+      "fails": "Each request for seats looks fine on its own, so a car can end up with more riders than seats.",
+      "catches": "At the moment a driver accepts, it counts the seats taken across the whole car, not per group.",
+      "survives": "Without the check a 3-seat car held 5 riders; with it, 3 of 3. Recorded against a stand-in (mock) database.",
+      "limit": "Two accepts at the same moment can both pass.",
+      "tech": [
+        "TypeScript",
+        "Next.js",
+        "Express",
+        "PostgreSQL"
+      ],
+      "repo": "https://github.com/exoxeph/tesla-pool"
+    },
+    {
+      "id": "llm-email-pipeline",
+      "icon": "envelope",
+      "domain": "LLM pipeline",
+      "question": "When should an AI not start writing?",
+      "fails": "A single prompt writes a confident email even when the request is vague or missing facts.",
+      "catches": "Ordinary code checks the request first, then a model judges whether there is enough to write from.",
+      "survives": "On 10 recorded scenarios: 4.7 of 5, against 4.2 for a single prompt. One run; scoring model unrecorded.",
+      "limit": "For one unclear request it still wrote an email when it should have asked.",
+      "tech": [
+        "Python",
+        "Streamlit",
+        "LLM provider APIs",
+        "Pydantic"
+      ],
+      "repo": "https://github.com/exoxeph/email-assistant"
+    },
+    {
+      "id": "retrieval-orchestration",
+      "icon": "papers",
+      "domain": "Retrieval",
+      "question": "When should an AI trust its first answer?",
+      "fails": "A first draft can be too short, drift off the question or stop mid-thought, and nothing says so.",
+      "catches": "Each draft is scored with simple quality rules; below the required quality, one more attempt with tighter settings.",
+      "survives": "Four recorded queries: two passed first time, two tried again and still fell short. Drafts from a mock generator.",
+      "limit": "Repair is an attempt, not a guarantee; both repaired answers stayed below the requirement.",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "DuckDB",
+        "sentence-transformers"
+      ],
+      "repo": "https://github.com/exoxeph/Data-Aware-RAG"
+    },
+    {
+      "id": "speech-document-extraction",
+      "icon": "report",
+      "domain": "Extraction",
+      "question": "What if a reading looks valid but is not?",
+      "fails": "Reading a photographed lab report can misread a value, and a misread can still look like a good number.",
+      "catches": "Only value shapes it knows are accepted; a row that does not match is left out, not guessed.",
+      "survives": "Two recorded misreads: one is caught and its row left out; the other looks valid and is kept.",
+      "limit": "<8.5 read in place of <0.5 looks valid, so it is kept.",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "faster-whisper",
+        "Tesseract"
+      ],
+      "repo": "https://github.com/exoxeph/speech-doc-extraction"
+    }
+  ],
+  "education": {
+    "school": "BRAC University",
+    "course": "Computer Science",
+    "dates": "Sep 2022 to Sep 2026",
+    "thesis": "Data-Free Backdoor Removal From Privately Fine-Tuned BERT Classifiers"
+  },
+  "certs": [
+    {
+      "file": "aws-ai-practitioner.webp",
+      "name": "AWS Certified AI Practitioner",
+      "by": "Amazon Web Services",
+      "date": "Sep 2026",
+      "url": "https://www.credly.com/badges/f877a355-f105-4953-9784-0ebedbeda19e/linked_in_profile"
+    },
+    {
+      "file": "aws-cloud-practitioner.webp",
+      "name": "AWS Certified Cloud Practitioner",
+      "by": "Amazon Web Services",
+      "date": "Oct 2026",
+      "url": "https://www.credly.com/badges/1be73443-89e4-4657-96c6-d4fa99cf607b/"
+    },
+    {
+      "file": "redis.webp",
+      "name": "Redis Certified Associate Developer",
+      "by": "Redis",
+      "date": "Oct 2026",
+      "url": "https://credentials.redis.io/9db642ab-2b59-46db-8a85-e6ec3a36a18a"
+    },
+    {
+      "file": "udacity.webp",
+      "name": "Future AWS Agent Engineer Nanodegree",
+      "by": "Udacity",
+      "date": "Oct 2026",
+      "url": "https://www.udacity.com/certificate/e/be79146e-900d-11f1-84b6-df558e132a0d"
+    }
+  ],
+  "stack": [
+    [
+      "Machine learning and NLP",
+      [
+        "Python",
+        "PyTorch",
+        "scikit-learn",
+        "Hugging Face Transformers",
+        "Pandas",
+        "NumPy"
+      ]
+    ],
+    [
+      "Generative AI and retrieval",
+      [
+        "LLMs",
+        "RAG",
+        "Embeddings",
+        "BM25",
+        "Hybrid retrieval",
+        "Pinecone"
+      ]
+    ],
+    [
+      "Backend and data",
+      [
+        "FastAPI",
+        "REST APIs",
+        "Redis",
+        "DuckDB",
+        "MongoDB",
+        "Node.js"
+      ]
+    ],
+    [
+      "AI infrastructure and cloud",
+      [
+        "Docker",
+        "GitHub Actions",
+        "GHCR",
+        "DigitalOcean",
+        "AWS",
+        "Linux"
+      ]
+    ]
+  ],
+  "whoami": {
+    "who": "imtiaz · AI engineer · Dhaka, Bangladesh",
+    "line": "If a paper or idea catches my eye, there's a good chance I'll have a working prototype by the weekend.",
+    "now": [
+      "LLM systems and RAG: retrieval pipelines, vector search, embeddings",
+      "ML security and robustness: backdoor attacks and how to remove them",
+      "Backend and infra: Docker, CI/CD, Redis",
+      "Off the keyboard: football. Barça til I die."
+    ]
+  }
+}

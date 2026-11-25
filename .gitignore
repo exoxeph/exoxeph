@@ -6,3 +6,6 @@ repos/
 audit/
 strategy/
 design/
+# Local previews of the cards (scripts/preview.py)
+dev/
+__pycache__/
