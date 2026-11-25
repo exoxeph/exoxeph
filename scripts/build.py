@@ -46,7 +46,7 @@ def main():
     both("whoami", lambda ph: cards.whoami(P, ph))
     both("creds", lambda ph: cards.creds(P, ph))
     both("stack", lambda ph: cards.stack(P, ph))
-    for name, text, tint in (("site", "exoxeph.github.io", "accent"), ("resume", "Résumé", "partial"),
+    for name, text, tint in (("site", cards.site_host(P), "accent"), ("resume", "Résumé", "partial"),
                              ("linkedin", "LinkedIn", "#4d8fd6"), ("email", "Email", "invalid")):
         problems.extend(write_svg(f"btn-{name}", cards.button(text, tint)))
 

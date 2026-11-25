@@ -2,6 +2,7 @@
 # boards are 880 wide, half-width project cards and phone boards 440.
 import math, os, re
 from datetime import date, timedelta
+from urllib.parse import urlsplit
 
 from iso import Camera
 from svgkit import C, HERE, M, RADIUS, Svg, data_uri, f1, text_width, wrap
@@ -108,8 +109,12 @@ def arrow(s, d, head):
 
 
 # ---------------------------------------------------------------- hero
+def site_host(P):
+    return urlsplit(P["links"]["site"]).netloc
+
+
 def hero_label(P):
-    return f"{P['name']}, {P['role']}. {P['lede']} Portfolio: exoxeph.github.io."
+    return f"{P['name']}, {P['role']}. {P['lede']} Portfolio: {site_host(P)}."
 
 
 def _clip_board(s):
@@ -119,10 +124,11 @@ def _clip_board(s):
     return cid
 
 
-def _site_chip(s, x, y):
+def _site_chip(s, right, y, host):
     """The tilted address sticker: the portfolio, printed on the profile."""
-    text = f"exoxeph.github.io {ARROW}"
+    text = f"{host} {ARROW}"
     w = text_width(text, "mono5", 15) + 28
+    x = right - w
     s.add(f'<g transform="rotate(3 {f1(x + w / 2)} {y + 19})">')
     s.rect(x + 3, y + 4, w, 38, "well", None, 1, 9)
     s.rect(x, y, w, 38, "accent", None, 1, 9)
@@ -143,7 +149,7 @@ def hero(P, phone=False):
         fade(s, 300, 356, 580, 80, "up")
     s.add("</g>")
     if phone:
-        _site_chip(s, 214, 24)
+        _site_chip(s, 414, 24, site_host(P))
         portrait(s, 68, 392, 36)
         s.lines(126, 386, P["meta"], "mono", 12.5, 1.7, "muted")
         s.text(28, 500, "Imtiaz", "serif", 54, "text")
@@ -157,7 +163,7 @@ def hero(P, phone=False):
     s.text(44, 280, "Mashrafee", "serif", 62, "text")
     s.text(42, 338, P["role"], "serif", 48, "accent", italic=True)
     s.lines(44, 378, wrap(P["lede"], "serif", 18, 300), "serif", 18, 1.4, "muted")
-    _site_chip(s, 662, 28)
+    _site_chip(s, 862, 28, site_host(P))
     note(s, 690, 304, "that's me, in my dev room", 15, rotate=-3)
     arrow(s, "M716 314 C 712 340, 700 354, 682 363", "M686 351 L681 364 L695 362")
     return s

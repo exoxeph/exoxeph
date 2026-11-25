@@ -18,7 +18,7 @@ for n in names:
     elif n == "github":
         jobs = [("github", lambda ph: cards.github(P, DATA, ph))]
     elif n == "button":
-        jobs = [("button", lambda ph: cards.button("exoxeph.github.io", True))]
+        jobs = [("button", lambda ph: cards.button(cards.site_host(P), "accent"))]
     else:
         jobs = [(n, lambda ph, n=n: getattr(cards, n)(P, phone=ph))]
     for name, fn in jobs:
