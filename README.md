@@ -7,7 +7,7 @@
 <a href="mailto:imtiazmashrafee@gmail.com"><img src="assets/btn-email.svg" height="46" alt="Email"></a>
 </p>
 
-<picture><source media="(max-width: 600px)" srcset="assets/github-phone.svg"><img src="assets/github.svg" width="100%" alt="On GitHub: 1,097 contributions in the last year, drawn as an isometric city with one block per day. 91 active days, longest streak 13 days, 18 public repositories."></picture>
+<picture><source media="(max-width: 600px)" srcset="assets/github-phone.svg"><img src="assets/github.svg" width="100%" alt="On GitHub: 1,099 contributions in the last year, drawn as an isometric city with one block per day. 92 active days, longest streak 13 days, 18 public repositories."></picture>
 
 <picture><source media="(max-width: 600px)" srcset="assets/whoami-phone.svg"><img src="assets/whoami.svg" width="100%" alt="imtiaz · AI engineer · Dhaka, Bangladesh If a paper or idea catches my eye, there&#x27;s a good chance I&#x27;ll have a working prototype by the weekend. LLM systems and RAG: retrieval pipelines, vector search, embeddings ML security and robustness: backdoor attacks and how to remove them Backend and infra: Docker, CI/CD, Redis Off the keyboard: football. Barça til I die."></picture>
 
